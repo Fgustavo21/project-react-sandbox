@@ -1,0 +1,71 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.colored-frame {
+  border: 2px solid;
+  padding: 20px;
+  border-radius: 10px;
+  width: 700px;
+  text-align: center;
+  margin: 20px;
+}
+
+.frame-name {
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.espacamento {
+  margin-top: 50px;
+}
+
+.biografia {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  text-align: right;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bio {
+  display: flex;
+}
